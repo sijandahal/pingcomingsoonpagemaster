@@ -1,0 +1,125 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+#image {
+  margin-top: 70px;
+}
+
+p {
+  font-size: 39px;
+  color: hsl(0, 0%, 59%);
+  margin-top: 25px;
+  
+}
+ .text-primary {
+  font-weight: 900;
+  color: black;
+}
+
+.paragraph {
+  color: black;
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#form input[type = "email"] {
+  border: none;
+  border: 1px solid hsl(223, 100%, 88%);
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+
+#form button {
+  border: none;
+  color: #ffffff;
+  background: hsl(223, 87%, 63%);
+  border: 1px solid hsl(223, 87%, 63%);
+  padding: 10px 25px;
+  margin-left: 10px;
+  margin-bottom: 80px;
+  border-radius: 20px;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+
+}
+
+#form button:hover {
+  transform : scale(1.1);
+}
+
+::placeholder {
+  color : hsl(223, 100%, 88%);
+}
+
+.imagecontainer {
+  }
+
+.imagecontainer img{
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+.Socialcontainer {
+  margin-top: 50px;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+
+.Socialcontainer  span {
+  padding: 10px;
+}
+
+.Socialcontainer span i {
+ padding: 4px;
+ border-radius: 50%;
+ color: hsl(223, 87%, 63%);
+ background-color: #ffffff;
+}
+
+.Socialcontainer span i:hover {
+  background: hsl(223, 87%, 63%);
+  color: white;
+}
+
+#error_text {
+  color: red;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: -60px;
+  margin-left: -120px;
+  transition: 1s ease-in;
+  display: none;
+}
+
+@media screen and (max-width:469px) {
+
+  p {
+    margin-bottom: 50px;
+  }
+
+  .paragraph {
+    margin-bottom: 50px;
+  }
+#form button {
+  margin-top: 20px;
+  padding: 10px 100px;
+}
+.Socialcontainer {
+  margin-top: 100px;
+}
+
+}

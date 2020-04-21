@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/bfd368f197.js" crossorigin="anonymous"></script>
+
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
+
+  <!-- Link css -->
+<link rel="stylesheet" href="./css/style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div class="container"> 
+  <div id="image">
+    <img src="./images/logo.svg" alt="Logo" srcset="">
+    </div>
+
+<div id="textdiv">
+
+ <p>We are launching <span class = "text-primary"> soon! </span> </p> 
+
+ <p class = "paragraph"> Subscribe and get notified </p>
+</div>
+</div>
+
+<div class="wrapper">
+  <form id = "form" onsubmit="return validation()">
+    <label for="userinput"></label>
+    <input type="email" name="email" id="email" placeholder="Your Email Address"> 
+    <button type="submit">Notify Me</button>
+    <p id="error_text"></p>
+  </form>
+</div>
+
+<div class="imagecontainer">
+  <img src="./images/illustration-dashboard.png" alt="">
+</div>    
+
+<div class="Socialcontainer">
+ <span>    <i class="fab fa-facebook"></i> </span>
+ <span>    <i class="fab fa-twitter"></i> </span>
+ <span>    <i class="fab fa-instagram"></i> </span>     
+</div>
+  &copy; Copyright Ping. All rights reserved.
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+
+  <script src = "./js/main.js"> </script>
+</body>
+</html>
